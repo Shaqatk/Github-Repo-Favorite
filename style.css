@@ -1,0 +1,48 @@
+.purp{
+    background-color: #7433F1;
+    color: white; 
+}
+
+.navbar{
+   margin-bottom: 0px;
+    width: inherit;
+     border-radius: 0px;
+}
+
+@media(min-width:769px){
+.container1{
+    /* take up whole window and aline inside elements side by side */
+    display: flex;
+    }}
+
+.search_container{
+    padding: 40px;
+    /* size of box */
+    flex:1;
+    /* order of flex items */
+    order:1;   
+}
+
+.favorite{
+    padding: 40px;
+    flex: 1;
+    order:2;
+    background-color: #F3ECFE;
+}
+a{
+    color: black;
+}
+
+table,th,td{
+    border-collapse: collapse;
+    padding: 2px;
+    width: 80%;
+    text-align: left;
+}
+
+#add_button{
+    background-color: transparent;
+    border: none;
+    color: #7433F1;
+    text-decoration: underline;
+}
